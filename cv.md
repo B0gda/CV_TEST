@@ -1,7 +1,7 @@
 # Bogdan Sadriev
 ---
-## My tel: * +7 (937) 669-20-02 *
-## Mail: ** bogda077077@gmail.com **
+## My tel:  +7 (937) 669-20-02 
+## Mail:  bogda077077@gmail.com 
 ---
 ---
 
@@ -11,7 +11,7 @@
 ---
 
 
-#### ** Sample code(Detect Pangram) **
+####  Sample code(Detect Pangram) 
 
 
 ```JavaScript
