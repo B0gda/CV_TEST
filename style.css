@@ -1,0 +1,125 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', arial, sans-serif;
+	line-height: 1;
+	color: #373737;
+	background: #fefcfc;
+}
+
+
+/* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
+
+header:after,
+.container:after,
+footer:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* стилевой класс, который управляет шириной контейнера сетки*/
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+/*заголовок*/
+
+header {
+	margin-bottom: 30px;
+	padding: 15px 0;
+	background: #3C3D41;
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
+}
+
+
+/* логотип */
+
+.logo {
+	display: block;
+	width: 10%;
+	height: 10%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mname {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	color: #fefcfc;
+	font-size: 30px;
+	letter-spacing: 2px;
+	background-color: #3C3D41;
+}
+
+.category {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.category-bold {
+	font-weight: bold;
+}
+
+.category-image {
+	display: block;
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.category a {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5b2e97;
+}
+
+.border-style-groove {
+	padding: 5px;
+	border: 8px groove #3C3D41;
+}
+
+footer {
+	padding: 20px 0;
+	color: #fefcfc;
+	background: #3C3D41;
+}
+
+.footer-col {
+	float: left;
+	width: 31.33%;
+}
+
+.footer-col a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer-col:last-child {
+	text-align: right;
+}
+
+.social-bar-wrap {
+	width: 25%;
+	height: 25%;
+}
